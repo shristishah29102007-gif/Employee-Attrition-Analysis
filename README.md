@@ -66,5 +66,24 @@ Employee-Attrition-Analysis/
 ## Project Status
 
 Currently in the initial setup stage. Implementation and analysis will be completed progressively.
+## Machine Learning
 
+Three classification algorithms were evaluated for employee attrition prediction:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Logistic Regression was selected as the preferred model based on its validation performance.
+
+**Final test results:**
+
+| Metric | Score |
+|---|---:|
+| Accuracy | 86.73% |
+| Precision (Attrition) | 65% |
+| Recall (Attrition) | 43% |
+| F1-score (Attrition) | 51% |
+
+The model is intended to support HR retention decisions, not replace human judgment.
 
